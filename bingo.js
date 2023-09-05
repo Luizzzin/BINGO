@@ -7,7 +7,7 @@ function comecar() {
 }
 
 function novaCartela() {
-    for (let i = 0; i< 24; i++) {
+    for (let i = 0; i< 25; i++) {
         numero(i);
     }
 }
@@ -19,7 +19,7 @@ let coluna = new Array(
     1, 1, 1, 1, 0,
     2, 2, 2, 2,
     3, 3, 3, 3, 3,
-    4, 4, 4, 4, 4);
+    4, 4, 4, 4, 4, );
 
 function numero(thisNumero) {
     let pNumero = "quadrado" + thisNumero;
@@ -36,7 +36,7 @@ function numero(thisNumero) {
 
     document.getElementById(pNumero).innerHTML =
         novoNumero;
-    document.getElementById.apply(pNumero).classList = ""
+    document.getElementById(pNumero).classList = ""
     document.getElementById(pNumero).onmousedown = trocaCor;
 
 }
